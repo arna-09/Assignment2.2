@@ -1,0 +1,41 @@
+<!-- to use the Form tags -->
+
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <title>Form Tags</title>
+    </head>
+    <body>
+       <form action="" Method="get">
+        <fieldset>
+        <legend>your details</legend>
+        <label>Name</label>
+        <input type="text"/><br/>
+        <label>Email</label>
+        <input type="password"/>
+        </fieldset>
+
+        <fieldset>
+        <legend>Your review</legend>
+        <label>How did you hear about us</label>
+        <select>
+            <option value="volvo">Google</option>
+            <option value="saab">Newspapers</option>
+            <option value="mercedes">Adverisments</option>  
+        </select><br/><br/>
+        <label>Would you visit again?</label>
+        <input type="radio" name="visit" value="yes">Yes</input>
+        <input type="radio" name="visit" value="no">No</input>
+        <input type="radio" name="visit" value="Maybe">Maybe</input>
+        <br/><br/>
+        <label >Comments</label>
+        <br/>
+        <textarea rows="4" cols="40"></textarea>
+<br/>
+        <input type="checkbox" name="vehicle" value="Bike">Sign me up for Email updates<br/>
+        <br/>
+        <input type="submit" value="Submit">
+        </fieldset>
+        </from>
+    </body>
+</html>
